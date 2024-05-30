@@ -1,0 +1,58 @@
+.product-slot {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: center;
+}
+
+.keypad,
+.credit-section {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.keypad button {
+  font-size: 2rem;
+  margin: 5px;
+  width: 80px;
+  height: 80px;
+}
+
+.keypad button.text {
+  font-size: 14px;
+  font-weight: bold;
+  word-break: break-all;
+}
+
+.credit-section button {
+  margin: 5px;
+}
+
+.display {
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.coin {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: radial-gradient(circle, #ffd700, #ffbf00);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #daa520;
+}
+
+.coin span {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+#selected-code{
+  font-size: 50px;
+  letter-spacing: 4px;
+  font-weight: 700;
+}

@@ -1,0 +1,25 @@
+{
+	"functions": {
+		"api/*.php": {
+			"runtime": "vercel-php@0.7.1"
+		}
+	},
+	"routes": [
+		{
+			"src": "/(.*)",
+			"dest": "/api/index.php"
+		},
+		{
+			"src": "/product.php",
+			"dest": "/api/product.php"
+		},
+		{
+			"src": "/assets/bootstrap.min.css",
+			"dest": "/assets/bootstrap.min.css"
+		},
+		{
+			"src": "/assets/style.css",
+			"dest": "/assets/style.css"
+		}
+	]
+}
