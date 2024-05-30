@@ -29,8 +29,8 @@ $credit = $_SESSION['credit'];
 <head>
     <meta charset="UTF-8">
     <title>Vending Machine</title>
-    <link rel="stylesheet" href="./assets/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -45,7 +45,7 @@ $credit = $_SESSION['credit'];
                     <?php foreach ($products as $index => $product) : ?>
                         <div class="col-4 my-3 text-center py-4 border <?= $index % 3 == 1 ? 'border-left-0 border-right-0' : ''  ?>">
                             <h6 class="text-truncate"><?= $product->name ?></h6>
-                            <img class="max-w-100" src="./assets/img/<?= $product->image ?>" style="height:100px;">
+                            <img class="max-w-100" src="assets/img/<?= $product->image ?>" style="height:100px;">
                             <h4 class="text-dark font-weight-bold mb-0">Price: $<?= $product->price ?></h4>
                             <p class="mt-0">Amount: <span id="<?= $product->code ?>-amount"><?= $product->amount ?></span></p>
                             <div class="btn btn-primary font-weight-bold text-uppercase">Code: <?= $product->code ?></div>
