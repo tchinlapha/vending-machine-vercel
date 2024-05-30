@@ -10,16 +10,8 @@
 			"dest": "/api/index.php"
 		},
 		{
-			"src": "/product.php",
-			"dest": "/api/product.php"
-		},
-		{
-			"src": "/assets/bootstrap.min.css",
-			"dest": "/assets/bootstrap.min.css"
-		},
-		{
-			"src": "/assets/style.css",
-			"dest": "/assets/style.css"
+			"src": "/build(.)",
+			"dest": "/assets/"
 		}
 	]
 }
